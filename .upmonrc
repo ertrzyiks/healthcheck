@@ -1,0 +1,18 @@
+ {
+   "ping": {
+     "interval": 60000,
+     "services": [
+        "http://ertrzyiks.me/",
+        "http://blog.ertrzyiks.me/",
+        "http://tommy-web.ertrzyiks.me/",
+        "http://tommy-api.ertrzyiks.me/"
+     ]
+   },
+   "mail": {
+     "from": "upmon@ertrzyiks.me",
+     "to": ["mateusz[dot]derks[at]gmail[dot]com"]
+   },
+   "graf": {
+      "port": 5000
+    }
+ }
