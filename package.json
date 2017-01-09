@@ -4,7 +4,7 @@
   "description": "Healthcheck configuration for my services",
   "main": "index.js",
   "scripts": {
-    "start": "upmon | node ./upmon-mail | upmon-graf"
+    "start": "upmon | node ./upmon-mail | node ./upmon-graf"
   },
   "repository": {
     "type": "git",
