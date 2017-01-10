@@ -8,10 +8,6 @@
         "http://tommy-api.ertrzyiks.me/v1/exercises?slug=render-action-button"
      ]
    },
-   "mail": {
-     "from": "upmon@ertrzyiks.me",
-     "to": ["mateusz[dot]derks[at]gmail[dot]com"]
-   },
    "graf": {
       "port": 5000
     }

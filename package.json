@@ -4,7 +4,7 @@
   "description": "Healthcheck configuration for my services",
   "main": "index.js",
   "scripts": {
-    "start": "upmon | node ./upmon-slack/bin | upmon-graf"
+    "start": "upmon | upmon-slack | upmon-graf"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "nodemailer": "^2.7.0",
     "nodemailer-direct-transport": "^3.3.2",
     "upmon": "^1.0.0",
-    "upmon-graf": "github:ertrzyiks/upmon-graf#add-cache"
+    "upmon-graf": "github:ertrzyiks/upmon-graf#add-cache",
+    "upmon-slack": "github:ertrzyiks/upmon-slack",
+    "upomon-slack": "github:ertrzyiks/upmon-slack"
   }
 }
