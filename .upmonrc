@@ -3,7 +3,7 @@
      "interval": 60000,
      "services": [
         "http://ertrzyiks.me/",
-        "http://blog.ertrzyiks.me/",
+        "https://blog.ertrzyiks.me/",
         "http://tommy-web.ertrzyiks.me/render-action-button2",
         "http://tommy-api.ertrzyiks.me/v1/exercises?slug=render-action-button"
      ]
