@@ -1,2 +1,14 @@
-FROM node:6-onbuild
+FROM node:6.12.0
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+ONBUILD ARG NODE_ENV
+ONBUILD ENV NODE_ENV $NODE_ENV
+ONBUILD COPY package.json /usr/src/app/
+ONBUILD RUN yarn --force
+ONBUILD COPY . /usr/src/app
+
+CMD [ "yarn", "start" ]
+
 EXPOSE 5000

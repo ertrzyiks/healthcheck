@@ -22,8 +22,7 @@
     "nodemailer": "^2.7.0",
     "nodemailer-direct-transport": "^3.3.2",
     "upmon": "^1.0.0",
-    "upmon-graf": "github:ertrzyiks/upmon-graf#add-cache",
-    "upmon-slack": "github:ertrzyiks/upmon-slack",
-    "upomon-slack": "github:ertrzyiks/upmon-slack"
+    "upmon-graf": "^1.0.0",
+    "upmon-slack": "github:ertrzyiks/upmon-slack"
   }
 }
