@@ -1,6 +1,6 @@
  {
    "ping": {
-     "interval": 60000,
+     "interval": 14400000,
      "services": [
         "http://ertrzyiks.me/",
         "https://blog.ertrzyiks.me/",
